@@ -9,8 +9,8 @@
    "resolutionGeo": 1000,
    "tilingBounds": {
       "yMin": 0,
-      "yMax": 0,
-      "xMax": 0,
+      "yMax": 3,
+      "xMax": 3,
       "xMin": 0
    }
 }
