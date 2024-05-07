@@ -6,7 +6,7 @@
       "x": 3700000,
       "y": 2700000
    },
-   "resolutionGeo": 10000,
+   "resolutionGeo": 1000,
    "tilingBounds": {
       "yMin": 0,
       "yMax": 0,
