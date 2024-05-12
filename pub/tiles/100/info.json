@@ -3,14 +3,14 @@
    "crs": "EPSG:3035",
    "tileSizeCell": 128,
    "originPoint": {
-      "x": 3700000,
-      "y": 2700000
+      "x": 3200000,
+      "y": 1850000
    },
    "resolutionGeo": 100,
    "tilingBounds": {
-      "yMin": 0,
-      "yMax": 33,
-      "xMax": 38,
+      "yMin": 13,
+      "yMax": 100,
+      "xMax": 84,
       "xMin": 0
    }
 }
