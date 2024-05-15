@@ -1,4 +1,5 @@
-export NODE_OPTIONS=--max_old_space_size=32768
+#!/bin/sh
+export NODE_OPTIONS=--max_old_space_size=65536
 gridtiler -i /home/juju/gisco/building_demography/building_demography.csv -o /home/juju/workspace/BuildingDemography/pub/tiles/100/ -x 3200000 -y 1850000 --positionFunction "const a=c.GRD_ID.split('N')[1].split('E');return {x:a[1],y:a[0]};" --postFunction "delete c.GRD_ID" -c "EPSG:3035" -a 1 -r 100
 gridtiler -i /home/juju/gisco/building_demography/building_demography.csv -o /home/juju/workspace/BuildingDemography/pub/tiles/200/ -x 3200000 -y 1850000 --positionFunction "const a=c.GRD_ID.split('N')[1].split('E');return {x:a[1],y:a[0]};" --postFunction "delete c.GRD_ID" -c "EPSG:3035" -a 2 -r 100
 gridtiler -i /home/juju/gisco/building_demography/building_demography.csv -o /home/juju/workspace/BuildingDemography/pub/tiles/500/ -x 3200000 -y 1850000 --positionFunction "const a=c.GRD_ID.split('N')[1].split('E');return {x:a[1],y:a[0]};" --postFunction "delete c.GRD_ID" -c "EPSG:3035" -a 5 -r 100
