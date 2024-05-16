@@ -6,11 +6,11 @@
       "x": 2500000,
       "y": 1000000
    },
-   "resolutionGeo": 100,
+   "resolutionGeo": 1000,
    "tilingBounds": {
-      "yMin": 30,
-      "yMax": 166,
-      "xMax": 199,
-      "xMin": 55
+      "yMin": 3,
+      "yMax": 16,
+      "xMax": 19,
+      "xMin": 5
    }
 }
