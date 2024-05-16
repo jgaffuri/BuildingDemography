@@ -1,0 +1,5 @@
+x,y,number,ground_area,floor_area,residential_ground_area,residential_floor_area,economic_activity_ground_area,economic_activity_floor_area,cultural_ground_area,cultural_floor_area
+40,40,137.97,30559,30559,25996,25996,4564,4564,0,0
+40,90,313.67,43438,43438,31606,31606,11832,11832,0,0
+90,40,315.98,29681,29681,27542,27542,2139,2139,0,0
+90,90,1948.48,635752,635752,596055,596055,35745,35745,2771,2771
