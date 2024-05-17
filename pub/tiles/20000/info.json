@@ -10,7 +10,7 @@
    "tilingBounds": {
       "yMin": 0,
       "yMax": 0,
-      "xMax": 0,
+      "xMax": 1,
       "xMin": 0
    }
 }
